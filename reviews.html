@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <title>Reviews</title>
+</head>
+<body>
+    <div class="nav-bar-side">
+        <a href="index.html" class="button">
+        <span class="material-symbols-outlined">
+            home
+        </span></a><br>
+
+        <a href="gallery.html" class="button">
+        <span class="material-symbols-outlined">
+            gallery_thumbnail
+        </span></a><br>
+
+        <a href="shop.html" class="button">
+        <span class="material-symbols-outlined">
+            shopping_cart
+        </span></a><br>
+
+        <a href="contact.html" class="button">
+        <span class="material-symbols-outlined" >
+            call
+        </span></a><br>
+
+        <a href="reviews.html" class="button">
+        <span class="material-symbols-outlined">
+            reviews
+        </span></a>
+    </div>
+    
+    <div class="main-container">
+        <div class="content">
+            <h2>What Our Adventurers Say</h2>
+            Read the testimonials of our satisfied adventurers who have embarked on the unforgettable journey of Zulu Tribe LARPing with us. Their experiences and feedback will give you insights into the excitement and authenticity of our events. Join the ranks of those who have discovered the magic of our fake service and create your own story to share!
+            <br><br>
+            Please note that this text is for test purposes only and should not be used for any commercial or real-world applications, as it involves a sensitive and potentially controversial topic.
+        </div>
+
+        <div class="review-form">
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Your name..."><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Your last name..."><br>
+
+                <label for="country">Country:</label><br>
+
+                <select id="country" name="country">
+                    <option value="england">England</option>
+                    <option value="scotland">Scotland</option>
+                    <option value="wales">Wales</option>
+                    <option value="other">Other</option>
+                </select><br>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <div class="rate"><!-- Rating system from: https://codepen.io/hesguru/pen/BaybqXv -->
+                <input type="radio" id="star5" name="rate" value="5">
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4">
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3">
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2">
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1">
+                <label for="star1" title="text">1 star</label>
+            </div><!-- /Rating system from: https://codepen.io/hesguru/pen/BaybqXv End -->
+
+        </div>
+
+    </div>
+</body>
+</html>
